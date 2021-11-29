@@ -13,73 +13,89 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
   </head>
   <body>
     <!--Header-->
     <header class="header">
-      <a class="logo" href="index.html"><span class="collortxt">Web</span>Studio</a>
-      <nav>
-        <ul class="header-navigate">
-          <li><a href="index.html" class="nav-link">Студия</a></li>
-          <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
-          <li><a href="/" class="nav-link">Контакты </a></li>
+      <div class="header-content">
+        <a class="logo" href="index.html"><span class="collortxt">Web</span>Studio</a>
+        <nav class="nav-block">
+          <ul class="header-navigate">
+            <li class="item"><a href="index.html" class="nav-link">Студия</a></li>
+            <li class="item"><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="item"><a href="/" class="nav-link">Контакты </a></li>
+          </ul>
+        </nav>
+        <!--contact-->
+        <ul class="contact-navigate">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <!--contact-->
-      <ul class="contact-navigate">
-        <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!--information block-->
-      <section class="main-top">
-        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+      <section class="section">
+        <h1 class="title">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
         <button class="button" type="button">Заказать услугу</button>
       </section>
+      <div class="container">
       <section class="information">
-        <h2 class="hide">Наши приимущества</h2>
-        <ul>
-          <li class="block">
-            <h3 class="block_h">Внимание к деталям</h3>
-            <p class="block_p">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li class="block">
-            <h3 class="block_h">Пунктуальность</h3>
-            <p class="block_p">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li class="block">
-            <h3 class="block_h">Планирование</h3>
-            <p class="block_p">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li class="block">
-            <h3 class="block_h">Современные технологии</h3>
-            <p class="block_p">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        
+          <h2 class="hide">Наши приимущества</h2>
+          <ul class="item">
+            <li class="block">
+              <h3 class="block_h">Внимание к деталям</h3>
+              <p class="block_p">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="block">
+              <h3 class="block_h">Пунктуальность</h3>
+              <p class="block_p">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="block">
+              <h3 class="block_h">Планирование</h3>
+              <p class="block_p">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="block">
+              <h3 class="block_h">Современные технологии</h3>
+              <p class="block_p">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="work">
+        <div class="container">
+          <h2 class="title">Чем мы занимаемся</h2>
+          <ul class="image">
+            <li class="image-work"><img src="images/kod.jpg" width="370" alt="kod" /></li>
+            <li class="image-work"><img src="images/mobile.jpg" width="370" alt="mobile" /></li>
+            <li class="image-work"><img src="images/color.jpg" width="370" alt="color" /></li>
+          </ul>
+        </div>
         <!--Work-->
-        <h2 class="title">Чем мы занимаемся</h2>
-        <ul class="image">
-          <li class="image-work"><img src="images/kod.jpg" width="370" alt="kod" /></li>
-          <li class="image-work"><img src="images/mobile.jpg" width="370" alt="mobile" /></li>
-          <li class="image-work"><img src="images/color.jpg" width="370" alt="color" /></li>
-        </ul>
       </section>
       <section class="team">
         <!--team-->
-        <h2 class="title">Наша команда</h2>
+        <div class="container">
+               <h2 class="title">Наша команда</h2>
         <ul class="team-info">
           <li class="team-section">
             <img class="team-img" src="images/Igor.jpg" width="270" alt="Igor" />
@@ -101,14 +117,16 @@
             <h3 class="name">Михаил Ермаков</h3>
             <p class="profession">UI Designer</p>
           </li>
-        </ul>
+        </ul> 
+        </div>
+  
       </section>
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a class="logo-footer" href="index.html"><span class="collortxt">Web</span>Studio</a>
-
-      <address class="address">
+      <div class="container-footer">
+        <a class="logo-footer" href="index.html"><span class="collortxt">Web</span>Studio</a>
+             <address class="address">
         <ul class="address-list">
           <li class="footer-contact">
             <a class="map" href="https://goo.gl/maps/zJ5b4M9oRAb7cDgC7"
@@ -123,6 +141,10 @@
           </li>
         </ul>
       </address>
+      </div>
+      
+
+ 
     </footer>
   </body>
 </html>
