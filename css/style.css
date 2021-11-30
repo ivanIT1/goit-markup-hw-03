@@ -166,6 +166,7 @@ h3 {
 .work .image {
   display: flex;
   padding: 0;
+  margin: 0;
 }
 .work .container {
   text-align: center;
@@ -218,6 +219,7 @@ h3 {
   list-style-type: none;
   display: flex;
   padding: 0;
+  margin: 0;
 }
 .team-info .team-section {
   background: var(--title-color);
