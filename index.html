@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
   <body>
     <!--Header-->
     <header class="header">
-      <div class="header-content">
+      <div class="container header-content">
         <a class="logo" href="index.html"><span class="collortxt">Web</span>Studio</a>
         <nav class="nav-block">
           <ul class="header-navigate">
@@ -41,42 +41,41 @@
 
     <main>
       <!--information block-->
-      <section class="section">
-        
-         <h1 class="title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="button" type="button">Заказать услугу</button>
-      
-        
-        </section> 
-      <div class="container">
-      <section class="information">
-        
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="button" type="button">Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="section information">
+        <div class="container">
           <h2 class="hide">Наши приимущества</h2>
           <ul class="item">
-            <li class="block">
-              <h3 class="block_h">Внимание к деталям</h3>
-              <p class="block_p">
+            <li class="list">
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="discription">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="block">
-              <h3 class="block_h">Пунктуальность</h3>
-              <p class="block_p">
+            <li class="list">
+              <h3 class="title">Пунктуальность</h3>
+              <p class="discription">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="block">
-              <h3 class="block_h">Планирование</h3>
-              <p class="block_p">
+            <li class="list">
+              <h3 class="title">Планирование</h3>
+              <p class="discription">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="block">
-              <h3 class="block_h">Современные технологии</h3>
-              <p class="block_p">
+            <li class="list">
+              <h3 class="title">Современные технологии</h3>
+              <p class="discription">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -84,7 +83,7 @@
         </div>
       </section>
 
-      <section class="work">
+      <section class="work section">
         <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="image">
@@ -95,59 +94,63 @@
         </div>
         <!--Work-->
       </section>
-      <section class="team">
+      <section class="team section">
         <!--team-->
         <div class="container">
-               <h2 class="title">Наша команда</h2>
-        <ul class="team-info">
-          <li class="team-section">
-            <img class="team-img" src="images/Igor.jpg" width="270" alt="Igor" />
-            <h3 class="name">Игорь Демьяненко</h3>
-            <p class="profession">Product Designer</p>
-          </li>
-          <li class="team-section">
-            <img class="team-img" src="images/olga.jpg" width="270" alt="Olga" />
-            <h3 class="name">Ольга Репина</h3>
-            <p class="profession">Frontend Developer</p>
-          </li>
-          <li class="team-section">
-            <img class="team-img" src="images/nikolay.jpg" width="270" alt="Nikolay" />
-            <h3 class="name">Николай Тарасов</h3>
-            <p class="profession">Marketing</p>
-          </li>
-          <li class="team-section">
-            <img class="team-img" src="images/mihail.jpg" width="270" alt="Mihail" />
-            <h3 class="name">Михаил Ермаков</h3>
-            <p class="profession">UI Designer</p>
-          </li>
-        </ul> 
+          <h2 class="title">Наша команда</h2>
+          <ul class="team-info">
+            <li class="team-section">
+              <img class="team-img" src="images/Igor.jpg" width="270" alt="Igor" />
+              <div class="item-container">
+                <h3 class="name">Игорь Демьяненко</h3>
+                <p class="profession">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-section">
+              <img class="team-img" src="images/olga.jpg" width="270" alt="Olga" />
+              <div class="item-container">
+                <h3 class="name">Ольга Репина</h3>
+                <p class="profession">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-section">
+              <img class="team-img" src="images/nikolay.jpg" width="270" alt="Nikolay" />
+              <div class="item-container">
+                <h3 class="name">Николай Тарасов</h3>
+                <p class="profession">Marketing</p>
+              </div>
+            </li>
+            <li class="team-section">
+              <img class="team-img" src="images/mihail.jpg" width="270" alt="Mihail" />
+              <div class="item-container">
+                <h3 class="name">Михаил Ермаков</h3>
+                <p class="profession">UI Designer</p>
+              </div>
+            </li>
+          </ul>
         </div>
-  
       </section>
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="container-footer">
+      <div class="container container-footer">
         <a class="logo-footer" href="index.html"><span class="collortxt">Web</span>Studio</a>
-             <address class="address">
-        <ul class="address-list">
-          <li class="footer-contact">
-            <a class="map" href="https://goo.gl/maps/zJ5b4M9oRAb7cDgC7"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-contact">
-            <a class="contact" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="footer-contact">
-            <a class="contact" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address-list">
+            <li class="footer-contact">
+              <a class="map" href="https://goo.gl/maps/zJ5b4M9oRAb7cDgC7"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-contact">
+              <a class="contact" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="footer-contact">
+              <a class="contact" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
-      
-
- 
     </footer>
   </body>
 </html>
